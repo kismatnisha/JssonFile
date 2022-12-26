@@ -8,7 +8,7 @@ namespace ObjectOrientedPrograms.Inventorymanagement
 {
     public class InventoryDetails
     {
-        public string? Name { get; set; }
+        public string Name { get; set; }
         public int Weight { get; set; }
         public int Price { get; set; }
     }
