@@ -9,6 +9,9 @@ namespace ObjectOrientedPrograms.StockManagement
 {
     public class Stock
     {
+        internal string Name;
+        internal int NoOfShares;
+        internal int PricePerShare;
         List<StockDetails> details = new List<StockDetails>();
 
         public void ReadJsonFile(string fileName)
